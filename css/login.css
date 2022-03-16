@@ -1,0 +1,72 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../大事件项目课程资料/day1（1-3小节）/素材/assets/images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-box {
+    height: 60px;
+    background: url(../大事件项目课程资料/day1（1-3小节）/素材/assets/images/login_title.png) no-repeat center;
+}
+
+.reg-box {
+    display: none;
+}
+
+.layui-form-item {
+    margin: 10px 30px;
+    position: relative;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    font-size: 12px;
+}
+
+.layui-icon {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+
+.layui-input {
+    padding-left: 32px;
+}
+
+#right_code {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 180px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    /* vertical-align: middle; */
+    color: rgb(73, 72, 72);
+    border: 1px solid red;
+    cursor: pointer;
+    /* background-image: url(); */
+}
+
+#yanzheng {
+    width: 150px;
+}
